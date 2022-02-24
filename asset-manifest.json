@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clover_zadatak/static/css/main.4ef1a520.css",
+    "main.js": "/clover_zadatak/static/js/main.d81bd23b.js",
+    "index.html": "/clover_zadatak/index.html",
+    "main.4ef1a520.css.map": "/clover_zadatak/static/css/main.4ef1a520.css.map",
+    "main.d81bd23b.js.map": "/clover_zadatak/static/js/main.d81bd23b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ef1a520.css",
+    "static/js/main.d81bd23b.js"
+  ]
+}
