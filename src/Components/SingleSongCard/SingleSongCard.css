@@ -1,0 +1,31 @@
+.singleCard {
+	display: flex;
+	flex-direction: row;
+	height: 104px;
+	width: 100%;
+	align-items: center;
+	background-color: #092c39;
+	border-radius: 10px;
+	padding: 0px 24px;
+	cursor: pointer;
+	column-gap: 40px;
+	transition-duration: 0.2s;
+}
+
+.singleCard:hover {
+	background-color: #224957;
+}
+
+#cardImg {
+	object-fit: cover;
+	height: 100%;
+	width: auto;
+}
+
+#infoDiv {
+	display: flex;
+	flex-direction: column;
+	line-height: 32px;
+	font-size: 20px;
+	font-weight: 400;
+}

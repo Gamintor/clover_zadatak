@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 64px 0;
+	row-gap: 64px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #093545;
+	min-height: 100vh;
+	color: #fff;
+}
+
+#mainTitle {
+	font-size: 64px;
+	line-height: 80px;
+	font-weight: 600;
+}
+
+.toolbar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	column-gap: 4px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	width: 50vw;
+}
+
+.toolbar select {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: inherit;
+	background-color: #224957;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border-radius: 6px;
+	padding: 4px;
+}
+
+.songList {
+	display: flex;
+	flex-direction: column;
+	row-gap: 32px;
+}
